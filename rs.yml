@@ -14,7 +14,7 @@ spec:
         web: cart
     spec:
       containers:
-        - name: cart-copntainer
+        - name: cart-container
           image: murulisocial123/cart-page-test:1.0
-          port: 
+          ports: 
             - containerPort: 3000
